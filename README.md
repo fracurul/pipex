@@ -67,6 +67,10 @@ Para entenderlo mejor te dejo esta representación gráfica:
        (pipe[1] pasa a ser                    (pipe[0] pasa a ser
         cmd1 stdout)                           cmd2 stdin)
 
+
+Aquí tienes un link para entender mejor como redirigir el flujo de datos usando pipes:
+[![Alt text](https://img.youtube.com/vi/8LdQ09Ep9RY/0.jpg)](https://www.youtube.com/watch?v=8LdQ09Ep9RY)
+
 RECUERDA: esto es una explicación lógica de lo que debe hacer pipex, si necesitas mas información el código esta subido y comentado.
 
 ## Como afrontar el proyecto(RoadMap):
