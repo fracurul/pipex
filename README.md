@@ -68,10 +68,10 @@ Para entenderlo mejor te dejo esta representación gráfica:
         cmd1 stdout)                           cmd2 stdin)
 
 
-Aquí tienes un link para entender mejor como redirigir el flujo de datos usando pipes:
+Aquí teneis 2 links para entender mejor como funcionan las pipes:
 
 https://www.youtube.com/watch?v=8LdQ09Ep9RY&t=263s
-
+https://www.youtube.com/watch?v=cex9XrZCU14&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY
 
 RECUERDA: esto es una explicación lógica de lo que debe hacer pipex, si necesitas mas información el código esta subido y comentado.
 
@@ -148,6 +148,11 @@ To understand it better, here's a graphical representation:
           to pipe[1]                          output to cmd2
        (pipe[1] becomes                      (pipe[0] becomes 
         cmd1 stdout)                           cmd2 stdin)
+
+Here are 2 links to better understand how pipes work:
+
+https://www.youtube.com/watch?v=8LdQ09Ep9RY&t=263s
+https://www.youtube.com/watch?v=cex9XrZCU14&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY
 
 REMEMBER: this is a logical explanation of what pipex should do. If you need more information, the code is uploaded and commented.
 
