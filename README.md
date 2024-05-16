@@ -33,5 +33,10 @@ Es decir el objetivo es redirigir el flujo de datos para que:
 infile obtenga los datos de stdin y outfile los de stdout. 
 
 ## Como afrontar el proyecto(RoadMap):
-	1.
+	1.Comprobar la cantidad de argumentos que recibimos.
+	2.Crear nuestro pipe.
+	3.Comprobar si el pipe se ha creado correctamente.
+	4.Hacer fork para dividir los procesos.
+	5.Comprobar si el fork se ha realizado correctamente.
+	6.Si estamos en el proceso hijo, ejecutamos 'X' proceso sino, viceversa.
 
