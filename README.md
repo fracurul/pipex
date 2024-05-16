@@ -53,7 +53,7 @@ Para entenderlo mejor te dejo esta representación gráfica:
 // cada cmd necesita una stdin (input) y devuelve un output (como stdout)
 
     infile                                             outfile
-como stdin para cmd1                                 como stdout para cmd2            
+	como stdin para cmd1                                 como stdout para cmd2            
        |                        PIPE                        ↑
        |           |----------------------------|            |
        ↓             |                       |              |
