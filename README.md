@@ -1,5 +1,6 @@
-# PIPEX-42 Español/English
+# PIPEX-42 Español/English version
 
+# ESPAÑOL
 ## Introducción: 
 En este proyecto aprenderas el manejo de pipes, algo que al principio puede parecer complicado de entender, pero que si le coges el truco es sencillo.
 
@@ -76,6 +77,9 @@ RECUERDA: esto es una explicación lógica de lo que debe hacer pipex, si necesi
 	5.Comprobar si el fork se ha realizado correctamente.
 	6.Si estamos en el proceso hijo, ejecutamos 'X' proceso sino, viceversa.
 
+
+
+#ENGLISH
 ## Introduction:
 In this project, you will learn how to handle pipes, something that might seem complicated at first but becomes easy once you get it.
 
