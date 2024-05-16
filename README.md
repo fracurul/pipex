@@ -31,6 +31,42 @@ Bueno vamos a descomponer el ejemplo por partes:
 
 Es decir el objetivo es redirigir el flujo de datos para que:
 infile obtenga los datos de stdin y outfile los de stdout. 
+Para entenderlo mejor te dejo esta representación gráfica:
+
+                           -----------------    
+                 0         |     stdin     |  
+                           -----------------    
+                 1         |     stdout    |    
+                           -----------------    
+                 2         |     stderr    |  
+                           -----------------
+                 3         |     infile    |  // open()
+                           -----------------
+                 4         |     outfile   |  // open()
+                           -----------------
+                 5         |     pipe[0]    | 
+                           -----------------
+                 6         |     pipe[1]    |  
+                           -----------------
+
+
+// cada cmd necesita una stdin (input) y devuelve un output (como stdout)
+
+    infile                                             outfile
+como stdin para cmd1                                 como stdout para cmd2            
+       |                        PIPE                        ↑
+       |           |----------------------------|            |
+       ↓             |                       |              |
+      cmd1   -->    pipe[1]       ↔        pipe[0]   -->     cmd2           
+                     |                       |
+            cmd1   |---------------------------|  pipe[0]
+           output                             lee pipe[1]
+         escrito                          y envía cmd1
+          en pipe[1]                          output a cmd2
+       (pipe[1] pasa a ser                    (pipe[0] pasa a ser
+        cmd1 stdout)                           cmd2 stdin)
+
+RECUERDA: esto es una explicación lógica de lo que debe hacer pipex, si necesitas mas información el código esta subido y comentado.
 
 ## Como afrontar el proyecto(RoadMap):
 	1.Comprobar la cantidad de argumentos que recibimos.
