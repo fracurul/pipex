@@ -14,3 +14,8 @@ recuerda hacer "man" para buscar información acerca de ellas, te dejo un  lista
 	5.pipe()
 	6.wait()
 	7.waitpip()
+
+# Explicación :
+Puede que no te haya quedado muy claro lo que te piden que hagas en el proyecto (Como me paso a mi), asi que vamos a explicarlo de un modo mas fácil:
+#
+	$> ./pipex infile "ls -l" | "wc -l" outfile
