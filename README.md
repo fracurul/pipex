@@ -1,10 +1,7 @@
-# PIPEX-42
+# PIPEX-42 Español/English
 
 ## Introducción: 
 En este proyecto aprenderas el manejo de pipes, algo que al principio puede parecer complicado de entender, pero que si le coges el truco es sencillo.
-## Introduction:
-In this project, you will learn how to handle pipes, something that might seem complicated at first but becomes easy once you get it.
-
 
 ## Recomendaciones:
 Vas a aprender el comportamiento de nuevas funciones,
@@ -20,7 +17,6 @@ recuerda hacer "man" para buscar información acerca de ellas, te dejo un  lista
 
 ## Explicación: 
 Puede que no te haya quedado muy claro lo que te piden que hagas en el proyecto (Como me paso a mi), asi que vamos a explicarlo de un modo mas fácil:
-
 
 	$> ./pipex infile "ls -l" | "wc -l" outfile
 
